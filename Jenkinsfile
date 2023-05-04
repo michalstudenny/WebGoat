@@ -30,7 +30,7 @@ pipeline {
 
             steps {
 
-                sh 'bash /home/entrypoint.sh debricked:scan "" "$DEBRICKED_TOKEN" example-jenkins "$GIT_COMMIT" null cli'
+                sh 'bash /home/entrypoint.sh debricked:scan "" "$DEBRICKED_TOKEN" WebGoat "$GIT_COMMIT" null cli'
 
             }
 
